@@ -10,7 +10,7 @@
 
 # parameters (change this stuff accordingly)
 # project name
-PRJ = microcontroller_b
+PRJ = microcontroller_a
 # avr mcu
 MCU = atmega328p
 # mcu clock frequency

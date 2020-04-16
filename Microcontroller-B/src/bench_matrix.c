@@ -1,4 +1,4 @@
-#include "benchmark_helper.h"
+#include "benchmark.h"
 
 int16_t matrix_test(uint32_t N, MATRES *C, MATDAT *A, MATDAT *B, MATDAT val);
 int16_t matrix_sum(uint32_t N, MATRES *C, MATDAT clipval);

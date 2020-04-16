@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <avr/pgmspace.h>
-#include "uart.h"
+#include "comm_uart.h"
 
 static FILE usart0_str = FDEV_SETUP_STREAM(send_byte_usart0, NULL, _FDEV_SETUP_WRITE);
 

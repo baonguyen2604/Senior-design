@@ -11,7 +11,7 @@
 */
 #define align_mem(x) (void *)(4 + (((uintptr_t)(x) - 1) & ~3))
 
-int *benchmark(void);
+int benchmark(void);
 
 typedef int16_t MATDAT;
 typedef int32_t MATRES;
